@@ -54,7 +54,6 @@ public class Calculator {
 		
 			else {
 				System.exit(0);
-			
 			}
 		}
 		
