@@ -16,4 +16,9 @@ public class CalcTest
 	      Calculator calculator = new Calculator();
 	      assertEquals(10, calculator.substract(20,10));
 	   }
+	@Test
+	   public void testMul() {
+	      Calculator calculator = new Calculator();
+	      assertEquals(100, calculator.multiply(10, 10));
+	   }
 }
