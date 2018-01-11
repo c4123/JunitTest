@@ -21,4 +21,5 @@ public class CalcTest
 	      Calculator calculator = new Calculator();
 	      assertEquals(100, calculator.multiply(10, 10));
 	   }
+	
 }
