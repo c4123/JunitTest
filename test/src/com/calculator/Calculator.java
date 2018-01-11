@@ -11,9 +11,7 @@ public class Calculator {
 	 public static int substract(int x, int y){
 	      return x - y;
 	   }
-	 public static int multiply(int x, int y){
-	      return x * y;
-	   }
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -50,8 +48,8 @@ public class Calculator {
 			else if(menu == 3){
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
-				result = multiply(x,y);
-				System.out.println("The result is " + result);
+				
+				System.out.println("The result is ");
 			}
 		
 			else {
