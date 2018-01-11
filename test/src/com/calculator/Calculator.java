@@ -42,6 +42,7 @@ public class Calculator {
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
 				
+				
 				System.out.println("The result is ");
 			}
 			else if(menu == 3){
