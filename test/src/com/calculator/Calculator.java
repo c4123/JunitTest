@@ -50,7 +50,6 @@ public class Calculator {
 			else if(menu == 3){
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
-				
 				System.out.println("The result is ");
 			}
 		
