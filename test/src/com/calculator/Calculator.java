@@ -10,6 +10,9 @@ public class Calculator {
 	public static int add(int x, int y){
 	      return x + y;
 	   }
+	 public static int substract(int x, int y){
+	      return x - y;
+	   }
 
 	
 	public static void main(String[] args) {
@@ -41,8 +44,8 @@ public class Calculator {
 			else if(menu == 2){
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
-				
-				System.out.println("The result is ");
+				result = substract(x,y);
+				System.out.println("The result is " + result);
 			}
 			else if(menu == 3){
 				System.out.println("x:" + x);

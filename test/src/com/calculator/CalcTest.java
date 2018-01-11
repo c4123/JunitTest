@@ -11,4 +11,9 @@ public class CalcTest
 	      Calculator calculator = new Calculator();
 	      assertEquals(30, calculator.add(10, 20));
 	   }
+	@Test
+	   public void testSub() {
+	      Calculator calculator = new Calculator();
+	      assertEquals(10, calculator.substract(20,10));
+	   }
 }
