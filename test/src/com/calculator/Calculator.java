@@ -7,12 +7,15 @@ import org.junit.*;
 
 public class Calculator {
 	
+	public static int add(int x, int y){
+	      return x + y;
+	   }
 
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		int menu = 0;
+		int result = 0;
 		Scanner s = new Scanner(System.in);
 		
 		System.out.println("ID: 1775017");
@@ -27,10 +30,12 @@ public class Calculator {
 			int y = s.nextInt();
 			
 			if(menu == 1){
+				
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
-	
-				System.out.println("The result is ");
+				result = add(x,y); 
+				System.out.println("The result is: " + result);
+				
 			}
 			else if(menu == 2){
 				System.out.println("x:" + x);
