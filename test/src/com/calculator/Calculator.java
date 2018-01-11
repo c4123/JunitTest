@@ -42,8 +42,14 @@ public class Calculator {
 			else if(menu == 2){
 				System.out.println("x:" + x);
 				System.out.println("y:" + y);
+<<<<<<< HEAD
 				result = substract(x,y);
 				System.out.println("The result is " + result);
+=======
+				
+				
+				System.out.println("The result is ");
+>>>>>>> branch 'master' of https://github.com/c4123/JunitTest
 			}
 			else if(menu == 3){
 				System.out.println("x:" + x);
